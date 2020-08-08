@@ -27,6 +27,6 @@ def find_min_in_nested_arrays(src)
     
   end
 
-
+return lowest_temp_each_month
 
 end
