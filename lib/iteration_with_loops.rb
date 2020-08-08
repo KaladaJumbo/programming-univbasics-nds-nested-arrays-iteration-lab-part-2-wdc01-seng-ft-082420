@@ -8,11 +8,11 @@ def find_min_in_nested_arrays(src)
   while row < src.length do
   
     item = 0
-    lowest_temp_each_day = nil
+    lowest_temp_each_day = 1000
     
     while item < src[row].length do
       
-      if lowest_temp_each_day > src[row][item] or lowest_temp_each_day == nil
+      if lowest_temp_each_day > src[row][item] 
         
         lowest_temp_each_day = src[row][item]
         
